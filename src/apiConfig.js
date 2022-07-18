@@ -53,7 +53,7 @@ export const apiLanguage = {
 export const tryGetPopularMovies = async (page = 1) => {
   try {
     const res = await axios(
-      `https://api.themoviedb.org/3/movie/popular?api_key=4731f843be0ef719c516f748dad07f59&language=en-US&page=${page}`
+      `https://api.themoviedb.org/3/movie/550?api_key=6f6458e6523d404be9d5a2f82adc41a5&language=en-US&page=${page}`
     );
     return res.data.results;
   } catch (error) {

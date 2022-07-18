@@ -12,7 +12,7 @@ const Carousel = ({ entity, title }) => {
       <div>
         <h1
           style={{
-            color: "white",
+            color: "gray",
           }}
         >
           {title}
@@ -20,7 +20,7 @@ const Carousel = ({ entity, title }) => {
       </div>
       <Slider {...settingsSlider}>
         {loading ? (
-          <div>Loading...</div>
+          <div>Cargando...</div>
         ) : (
           values.map((value) => (
             <Card

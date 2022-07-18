@@ -20,8 +20,8 @@ const Navbar = () => {
     <div className={`nav ${scroll && "nav_black"}`}>
       <img
         className="nav_logo"
-        src="https://www.freepnglogos.com/uploads/netflix-logo-0.png"
-        alt="Netflix Logo"
+        src="https://cdn.jsdelivr.net/gh/Th3Wall/assets-cdn/Fakeflix/Fakeflix_logo.png"
+        alt="Fakeflix Logo"
       />
 
       <div className="nav_menu">
@@ -34,11 +34,11 @@ const Navbar = () => {
         </a>
 
         <a className="nav_item" href="#">
-          Peliculas
+          Pelis
         </a>
 
         <a className="nav_item" href="#">
-          Novedades populares
+          Novedades 
         </a>
 
         <a className="nav_item" href="#">
@@ -46,11 +46,7 @@ const Navbar = () => {
         </a>
       </div>
 
-      <img
-        className="user"
-        src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
-        alt="user"
-      />
+      
     </div>
   );
 };
